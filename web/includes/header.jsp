@@ -24,7 +24,7 @@
 	</TR>
 
 	<TR>
-		<TD COLSPAN=5 ROWSPAN=2><IMG SRC="images/left_2.gif" WIDTH=233
+		<TD COLSPAN=5 ROWSPAN=2><IMG SRC="${pageContext.request.contextPath}/images/left_2.gif" WIDTH=233
 			HEIGHT=20></TD>
 		<TD ROWSPAN=4><a href="${pageContext.request.contextPath}/demo/index.jsp"><IMG
 				SRC="${pageContext.request.contextPath}/images/demovoice.gif" WIDTH=93 HEIGHT=23 border="0"></a></TD>

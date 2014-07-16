@@ -1,10 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
 <td width="175" valign="top">
 
 	<table border="1" bordercolor="#575757" cellpadding="0" cellspacing="5"
 		width="175">
 		<tr>
 			<td valign="top" bgcolor="#9B9B9B"
-				style="border-color: #000000; background: url('images/news_bg.gif')"
+				style="border-color: #000000; background: url('${pageContext.request.contextPath}/images/news_bg.gif')"
 				class="news"><a href="${pageContext.request.contextPath}/demo/index.jsp"><img
 					src="${pageContext.request.contextPath}/images/demo.gif" border="0"><br />
 					<p align="center">
@@ -20,22 +21,14 @@
 				style="border-color: #000000; background: url('${pageContext.request.contextPath}/images/news_bg.gif')"
 				class="news"><img src="${pageContext.request.contextPath}/images/live2.gif"><br />
 
+<%
+for(Event e : events) {
+%>
 				<div class="live_voice">
-					<a href="${pageContext.request.contextPath}//live/null_2.jsp">01/05/2013 - Radio
-						Risaia Sud - Circolo dei Lavoratori di Porta Torino - Vercelli</a>
+					<a href="${pageContext.request.contextPath}/live/news.jsp?id=<%=e.getId()%>"><%=e.getTitle()%></a>
 				</div>
-				<div class="live_voice">
-					<a href="${pageContext.request.contextPath}/live/null_2_3.jsp">15/03/2013 -
-						Circolo dei Lavoratori di Porta Torino - Vercelli</a>
-				</div>
-				<div class="live_voice">
-					<a href="${pageContext.request.contextPath}/live/null-2_3.jsp">08/12/2012 -
-						Circolo dei Lavoratori di Porta Torino - Vercelli</a>
-				</div>
-				<div class="live_voice">
-					<a href="${pageContext.request.contextPath}/live/null_2.jsp">30/06/2012 - Festa di
-						Inizio Estate - Santhià</a>
-				</div></td>
+<%} %>
+</td>
 		</tr>
 	</table>
 

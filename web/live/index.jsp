@@ -1,17 +1,13 @@
-<HTML>
+<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
+<html>
+<head>
+	<%@include file="../includes/head.jsp"%>
+</head>
 
 
 
-<HEAD>
-<meta name="verify-v1" content="DtafxZLUJBYB+/4Yu8H1T/O0wbDPlart8UNhsStdL+0=" />
-<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1"/>
-<link rel="stylesheet" type="text/css" href="/css/doctorgroove.css" />
-<title>
-	:::: Doctor Groove Live Band - Live Music ::::
-</title>
-</HEAD>
+<body bgcolor="#686868">
 
-<BODY BGCOLOR=#686868>
 <script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https:// ssl." : "http://www.");
 	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -147,7 +143,7 @@
 																																																<div class="live_voice"><a href="/live/null_2.jsp">01/05/2013 - Radio Risaia Sud - Circolo dei Lavoratori di Porta Torino - Vercelli</a></div>
 																																							<div class="live_voice"><a href="/live/null_2_3.jsp">15/03/2013 - Circolo dei Lavoratori di Porta Torino - Vercelli</a></div>
 																																							<div class="live_voice"><a href="/live/null-2_3.jsp">08/12/2012 - Circolo dei Lavoratori di Porta Torino - Vercelli</a></div>
-																																							<div class="live_voice"><a href="/live/null_2.jsp">30/06/2012 - Festa di Inizio Estate - Santhià</a></div>
+																																							<div class="live_voice"><a href="/live/null_2.jsp">30/06/2012 - Festa di Inizio Estate - SanthiÃ </a></div>
 																		
 									
 								</td>
@@ -221,8 +217,8 @@ document.write("<img src='" +ranimage()+ "'>")
 												 									<p class="center_block" align="center"><a href="news-17933.jsp">01 mag 2013 ::: Radio Risaia Sud - Circolo dei Lavoratori di Porta Torino - Vercelli</a></div> 
 															<p class="center_block" align="center"><a href="news-17928.jsp">15 mar 2013 ::: Circolo dei Lavoratori di Porta Torino - Vercelli</a></div> 
 															<p class="center_block" align="center"><a href="news-17913.jsp">08 dic 2012 ::: Circolo dei Lavoratori di Porta Torino - Vercelli</a></div> 
-															<p class="center_block" align="center"><a href="news-17906.jsp">30 giu 2012 ::: Festa di Inizio Estate - Santhià</a></div> 
-															<p class="center_block" align="center"><a href="news-17902.jsp">26 mag 2012 ::: Serata Acustica - Chocolate Caffè - Pezzana VC</a></div> 
+															<p class="center_block" align="center"><a href="news-17906.jsp">30 giu 2012 ::: Festa di Inizio Estate - SanthiÃ </a></div> 
+															<p class="center_block" align="center"><a href="news-17902.jsp">26 mag 2012 ::: Serata Acustica - Chocolate CaffÃ¨ - Pezzana VC</a></div> 
 															<p class="center_block" align="center"><a href="news-17886.jsp">16 apr 2011 ::: Saluggia (VC) - Live contro il Nucleare</a></div> 
 															<p class="center_block" align="center"><a href="news-17882.jsp">16 nov 2010 ::: Radio Risaia Sud - Video Live</a></div> 
 															<p class="center_block" align="center"><a href="news-17876.jsp">28 ago 2010 ::: Circolo Rionale Oremo Biella</a></div> 
