@@ -27,7 +27,24 @@
 
 						<td valign="top" width="625">
 						<p align="center"><img src="${pageContext.request.contextPath}/images/doctor_groove.gif"></p>
+						
+					
+	
+							
+													
 												<p align="center" class="center_block"><p style="text-align: center">&nbsp;</p><p>&nbsp;</p><div style="text-align: center"><span style="font-weight: bold" class="Apple-style-span">Per contattarci o richiedere il nostro demo:</span></div><div style="text-align: center"><strong><br /></strong></div><div style="text-align: center"><br /></div><strong><div style="text-align: center"><span style="font-weight: normal" class="Apple-style-span"><strong>Mail:  </strong><a style="font-weight: bold" href="mailto:info@doctor-groove.it?subject=Contatto%20dal%20sito%20www.doctor-groove.it">info@doctor-groove.it</a></span></div></strong><div style="text-align: center"><strong><br /></strong></div><strong><div style="text-align: center"><span style="font-weight: normal" class="Apple-style-span"><strong>Cell:</strong> +39 3393448370 o +39 3395414196</span></div></strong><div style="text-align: center"><br /></div><div style="text-align: center"><br /></div><span style="font-weight: bold"><div style="text-align: center"><span style="font-weight: normal" class="Apple-style-span"><span style="font-weight: bold">Web:  </span><a href="http://www.doctor-groove.it">http://www.doctor-groove.it</a></span></div></span><p>&nbsp;</p><p style="text-align: center"><strong>Facebook</strong>:&nbsp;<a href="http://www.facebook.com/pages/Doctor-Groove/79282153847">http://www.facebook.com/pages/Doctor-Groove/79282153847</a>&nbsp;</p><p style="text-align: center">&nbsp;</p></p>
+						<p align="center">
+
+								<%
+									String foto[] = { "gruppo_01.jpg", "gruppo_02.jpg",
+											"gruppo_03.jpg", "gruppo_04.jpg", "gruppo_06.jpg",
+											"gruppo_07.jpg", "civico.jpg" };
+									Random randomGenerator = new Random();
+									String f = foto[randomGenerator.nextInt(foto.length)];
+								%>
+								<img src="${pageContext.request.contextPath}/images/<%=f%>" />
+
+							</p>s												
 											</td>
 				</tr>
 			</table>

@@ -2,16 +2,87 @@
 
 <events>
 
-	<event id="1">
-		<title>Radio Risaia Sud - Cirolino dei lavoratori</title>
-		<date>01 maggio 2013</date>
-		<body>Radio Risaia Sud - Cirolino dei lavoratori - Serata Live inizio ore 22:00</body>
+	<event id="">
+		<title>Doctor Groove  e Silvia Bianco</title>
+		<date>14 maggio 2014</date>
+		<body>Brani inediti con la Silvia Bianco alla Voce.</body>
 	</event>
 
+
+	<event id="11">
+		<title>Area 24 (VC)</title>
+		<date>15 Febbraio 2007</date>
+		<body>Zona ex-montefibre (VC) ore 22:00</body>
+	</event>
+
+
+	<event id="10">
+		<title>Area 24 (VC)</title>
+		<date>14 Dicembre 2006</date>
+		<body>Zona ex-montefibre (VC) ore 22:00</body>
+	</event>
+
+
+	<event id="9">
+		<title>Concorso Onda Rock</title>
+		<date>05 Novembre 2006</date>
+		<body>Concorso Onda Rock presso lo Shake Pub di Fara Novarese. Inizio spettacolo ore 22.00. I Doctor Groove si sfideranno con altri 2 gruppi e solo 2 di questi verranno selezionati per passare alla fase successiva del concorso. I metodi di votazione sono di due tipologie, la parte tecnica e il voto del pubblico, quindi vi aspettiamo numerosi per darci il vostro sostegno.</body>
+	</event>
+
+
+	<event id="8">
+		<title>Monte Gregorio a Brosso (TO)</title>
+		<date>09 Settembre 2006</date>
+		<body>Serata Live con Doctor Groove alla Trattoria Monte Gregorio a Brosso (TO) (sopra Ivrea) Piazza Sclopis, 7</body>
+	</event>
+
+
+	<event id="7">
+		<title>Area 24 (VC)</title>
+		<date>01 Giugno 2006</date>
+		<body>Zona ex-montefibre (VC) ore 22:00</body>
+	</event>
+
+
+	<event id="6">
+		<title>Beto Music Festival (NO)</title>
+		<date>20 Maggio 2006</date>
+		<body>Nell'ambito del concorso Beto Music i Doctor Groove sono stati selezionati per parteciperanno alle finali presso il Locale Ipanema Club di Pisogno (NO)</body>
+	</event>
+
+
+	<event id="5">
+		<title>Officine Sonore (VC)</title>
+		<date>5 Maggio 2006</date>
+		<body>Officine Sonore (VC) - ore 22:00</body>
+	</event>
+
+
+	<event id="4">
+		<title>Vergasco (BI) - Festa in Piazza</title>
+		<date>22 Aprile 2006</date>
+		<body>Vergasco (BI) - Festa in Piazza - ore 22:00</body>
+	</event>
+
+
+	<event id="3">
+		<title>Teatro Civico (VC)</title>
+		<date>30 Novembre 2005</date>
+		<body>Teatro Civico (VC) - Serata Live con i Radio Risaia Sud</body>
+	</event>
+	
 	<event id="2">
+		<title>Andrate (TO) - Festa in Piazza</title>
+		<date>5 Agosto 2005</date>
+		<body>Andrate (TO) - Festa in Piazza - Serata Live inizio ore 22:00</body>
+	</event>
+
+
+	<event id="1">
 		<title>Brosso (TO) - Trattoria Monte Gregorio</title>
 		<date>5 marzo 2005</date>
 		<body>Brosso (TO) - Trattoria Monte Gregorio - Serata Live inizio ore 22:00</body>
 	</event>
+
 	
 </events>

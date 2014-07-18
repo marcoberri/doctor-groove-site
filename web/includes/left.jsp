@@ -6,7 +6,7 @@
 		<tr>
 			<td valign="top" bgcolor="#9B9B9B"
 				style="border-color: #000000; background: url('${pageContext.request.contextPath}/images/news_bg.gif')"
-				class="news"><a href="${pageContext.request.contextPath}/demo/index.jsp"><img
+				class="news"><a href="${pageContext.request.contextPath}/demo.jsp"><img
 					src="${pageContext.request.contextPath}/images/demo.gif" border="0"><br />
 					<p align="center">
 						<img src="${pageContext.request.contextPath}/storage/doctorgroove/home.gif" width="110px" border="0" /><br /></a>
@@ -22,7 +22,12 @@
 				class="news"><img src="${pageContext.request.contextPath}/images/live2.gif"><br />
 
 <%
+int i=6;
 for(Event e : events) {
+	i--;
+	if(i == 0){
+		break;
+	}
 %>
 				<div class="live_voice">
 					<a href="${pageContext.request.contextPath}/live/news.jsp?id=<%=e.getId()%>"><%=e.getTitle()%></a>
@@ -54,7 +59,7 @@ for(Event e : events) {
 			<td valign="top" bgcolor="#9B9B9B"
 				style="border-color: #000000; background: url('images/news_bg.gif')"
 				class="news"><a
-				href="${pageContext.request.contextPath}//materiale/video/"><img
+				href="${pageContext.request.contextPath}/video.jsp"><img
 					src="${pageContext.request.contextPath}/images/video.gif" border="0"><br />
 					<p align="center">
 						<img

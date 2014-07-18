@@ -11,7 +11,7 @@
 	<TR>
 		<TD COLSPAN=7 ROWSPAN=2><IMG SRC="${pageContext.request.contextPath}/images/top_1_2_3.gif"
 			WIDTH="343" HEIGHT="5" /></TD>
-		<TD ROWSPAN=3><a href="${pageContext.request.contextPath}/live/index.jsp"><IMG
+		<TD ROWSPAN=3><a href="${pageContext.request.contextPath}/live.jsp"><IMG
 				SRC="${pageContext.request.contextPath}/images/livevoice.gif" WIDTH="93" HEIGHT="23" border="0" /></a></TD>
 		<TD COLSPAN=3><IMG SRC="${pageContext.request.contextPath}/images/top_b5.gif" WIDTH="364" HEIGHT="4" /></TD>
 		<TD><IMG SRC="${pageContext.request.contextPath}/images/spacer.gif" WIDTH="1" HEIGHT="4" /></TD>
@@ -26,7 +26,7 @@
 	<TR>
 		<TD COLSPAN=5 ROWSPAN=2><IMG SRC="${pageContext.request.contextPath}/images/left_2.gif" WIDTH=233
 			HEIGHT=20></TD>
-		<TD ROWSPAN=4><a href="${pageContext.request.contextPath}/demo/index.jsp"><IMG
+		<TD ROWSPAN=4><a href="${pageContext.request.contextPath}/demo.jsp"><IMG
 				SRC="${pageContext.request.contextPath}/images/demovoice.gif" WIDTH=93 HEIGHT=23 border="0"></a></TD>
 		<TD ROWSPAN=8><IMG SRC="${pageContext.request.contextPath}/images/3b4.gif" WIDTH=17 HEIGHT=114></TD>
 		<TD><IMG SRC="${pageContext.request.contextPath}/images/spacer.gif" WIDTH=1 HEIGHT=18></TD>

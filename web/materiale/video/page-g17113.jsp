@@ -42,7 +42,7 @@
 		<TD COLSPAN=7 ROWSPAN=2>
 			<IMG SRC="images/top_1_2_3.gif" WIDTH="343" HEIGHT="5"/></TD>
 		<TD ROWSPAN=3>
-			<a href="/live/index.jsp"><IMG SRC="images/livevoice.gif" WIDTH="93" HEIGHT="23" border="0"/></a></TD>
+			<a href="/live.jsp"><IMG SRC="images/livevoice.gif" WIDTH="93" HEIGHT="23" border="0"/></a></TD>
 		<TD COLSPAN=3>
 			<IMG SRC="images/top_b5.gif" WIDTH="364" HEIGHT="4"/></TD>
 		<TD>
@@ -63,7 +63,7 @@
 		<TD COLSPAN=5 ROWSPAN=2>
 			<IMG SRC="images/left_2.gif" WIDTH=233 HEIGHT=20></TD>
 		<TD ROWSPAN=4>
-			<a href="/demo/index.jsp"><IMG SRC="images/demovoice.gif" WIDTH=93 HEIGHT=23 border="0"></a></TD>
+			<a href="/demo.jsp"><IMG SRC="images/demovoice.gif" WIDTH=93 HEIGHT=23 border="0"></a></TD>
 		<TD ROWSPAN=8>
 			<IMG SRC="images/3b4.gif" WIDTH=17 HEIGHT=114></TD>
 		<TD>
@@ -131,7 +131,7 @@
 												<table border="1" bordercolor="#575757" cellpadding="0" cellspacing="5" width="175">
 							<tr>
 								<td valign="top" bgcolor="#9B9B9B" style="border-color:#000000; background:url('images/news_bg.gif')" class="news">
-									<a href="/demo/index.jsp"><img src="images/demo.gif" border="0"><br/>
+									<a href="/demo.jsp"><img src="images/demo.gif" border="0"><br/>
 									<p align="center"><img src="storage/doctorgroove/home.gif" width="110px" border="0"/><br/></a>
 									Il nostro ultimo demo, disponibili Sample on-line.</p>
 									
