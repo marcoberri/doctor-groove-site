@@ -24,7 +24,7 @@
 				<%@include file="../includes/left.jsp"%>
 					
 					<td valign="top" width="625">
-						<p align="center"><img src="${pageContext.request.contextPath}/images/people.gif"></p>
+						<p align="center"><img src="${pageContext.request.contextPath}/images/doctor_groove_people.gif"></p>
 													<p align="center" style="font-size:30px;">Roberto Ceresa</p>
 												<p align="center" class="center_block"><br />
 <div style="text-align: center;"><font size="2" face="Arial"><font size="3" face="Times New Roman">Roberto ha iniziato a suonare a 13 anni....  e da allora non ha&nbsp;ancora smesso.... PECCATO !!!!</font></font><br /><br />  <br /><!--

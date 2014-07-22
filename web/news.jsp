@@ -6,6 +6,13 @@
 
 
 
+<%
+
+String news_id = request.getParameter("id");
+Event det = EventDetail.getEventById(news_id);
+
+%>
+
 <body bgcolor="#686868">
 
 
@@ -21,16 +28,16 @@
 			<table border="0" cellpadding="5" cellspacing="5">
 				<tr>
 				
-				<%@include file="../includes/left.jsp"%>
+				<%@include file="/includes/left.jsp"%>
 					
 					<td valign="top" width="625">
 						<p align="center"><img src="${pageContext.request.contextPath}/images/doctor_groove_live.gif"></p>
 
 
-						<p align="center" style="font-size:30px;">Brosso (TO) T. Monte Gregorio</p>
-						<p align="center" class="center_block">05 marzo 2005</p>
+						<p align="center" style="font-size:30px;"><%=det.getTitle()%></p>
+						<p align="center" class="center_block"><%=det.getDate()%></p>
 						<p align="center" class="center_block"></p>
-						<p align="center" class="center_block"></p>
+						<p align="center" class="center_block"><%=det.getBody()%></p>
 
 
 						<p align="center" class="center_block"><a href="${pageContext.request.contextPath}/contatti.jsp">per info</a></p>

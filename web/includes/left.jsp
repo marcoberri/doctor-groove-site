@@ -19,10 +19,14 @@
 		<tr>
 			<td valign="top" bgcolor="#9B9B9B"
 				style="border-color: #000000; background: url('${pageContext.request.contextPath}/images/news_bg.gif')"
-				class="news"><img src="${pageContext.request.contextPath}/images/live2.gif"><br />
+				class="news">
+				<a href="${pageContext.request.contextPath}/live.jsp">
+				<img src="${pageContext.request.contextPath}/images/live2.gif">
+				</a>
+				<br />
 
 <%
-int i=6;
+int i=12;
 for(Event e : events) {
 	i--;
 	if(i == 0){
@@ -30,7 +34,7 @@ for(Event e : events) {
 	}
 %>
 				<div class="live_voice">
-					<a href="${pageContext.request.contextPath}/live/news.jsp?id=<%=e.getId()%>"><%=e.getTitle()%></a>
+					 - <a href="${pageContext.request.contextPath}/news.jsp?id=<%=e.getId()%>"><%=e.getTitle()%></a>
 				</div>
 <%} %>
 </td>

@@ -24,7 +24,7 @@
 				<%@include file="../includes/left.jsp"%>
 					
 					<td valign="top" width="625">
-						<p align="center"><img src="${pageContext.request.contextPath}/images/people.gif"></p>
+						<p align="center"><img src="${pageContext.request.contextPath}/images/doctor_groove_people.gif"></p>
 													<p align="center" style="font-size:30px;">Luciano Vescovo</p>
 												<p align="center" class="center_block"><meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8" />
 <title></title>
