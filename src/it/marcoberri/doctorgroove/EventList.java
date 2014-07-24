@@ -23,13 +23,19 @@ public class EventList {
 
 	public static List<Event> getAllEvents() throws IOException, EncodingException, EOFException, EntityException, ParseException, NavException, XPathParseException, XPathEvalException {
 
-		List<Event> eventsList = new ArrayList<Event>();
-		final File f = new File(FILE_EVENTS);
 
+		//System.out.println("EventList:" + ClassLoader.class.getResource(FILE_EVENTS));
+		
+		
+		List<Event> eventsList = new ArrayList<Event>();
+
+		
 		VTDGen vg = new VTDGen();
 		int i;
 		AutoPilot ap = new AutoPilot();
 		ap.selectXPath("/events/event");
+		
+		
 		if (vg.parseFile(FILE_EVENTS, false)) {
 			VTDNav vn = vg.getNav();
 			ap.bind(vn);
