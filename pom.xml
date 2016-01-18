@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>it.marcoberri</groupId>
   <artifactId>doctor-groove</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <packaging>war</packaging>
   <name>Doctor Groove</name>
   <description>Doctor Groove Web Site</description>
@@ -30,6 +30,7 @@
         <configuration>
           <warSourceDirectory>web</warSourceDirectory>
           <failOnMissingWebXml>false</failOnMissingWebXml>
+          <outputFileNameMapping>doctor-groove.war</outputFileNameMapping>
         </configuration>
       </plugin>
     </plugins>
