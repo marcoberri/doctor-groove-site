@@ -30,7 +30,6 @@
         <configuration>
           <warSourceDirectory>web</warSourceDirectory>
           <failOnMissingWebXml>false</failOnMissingWebXml>
-          <outputFileNameMapping>doctor-groove.war</outputFileNameMapping>
         </configuration>
       </plugin>
     </plugins>

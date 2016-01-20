@@ -71,6 +71,7 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
                 <li><a href="#about">il Gruppo</a></li>
                 <li><a href="#silvia">ft. Silvia Bianco</a></li>
                 <li><a href="#live">Live</a></li>
+                <li><a href="#demo">Demo</a></li>
                 <li><a href="#media">Media</a></li>
                 <li><a href="#contact">Contatti</a></li>
               </ul>
@@ -187,8 +188,6 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
 
       <!-- START THE FEATURETTES -->
 
-     
-
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">ft. Silvia Bianco</h2>
@@ -204,9 +203,60 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
         </div>
       </div>
 
+	<p class="pull-right"><a href="#" title="Torna all'inizio della pagina">Torna su</a></p>
+
+</section>
+
+
+
+ <hr class="featurette-divider">
+ 
+<section id="demo">
+
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Full Stop. New Paragraph.</h2>
+          <p class="lead">Sample in arrivo</p>
+        </div>
+        
+        
+        <div class="col-md-5">
+          <img style="margin-top:5px;" class="featurette-image img-responsive" src="${pageContext.request.contextPath}/images/cover_full_stop.jpg" alt="Doctor Groove ft. Silvia Bianco - Full stop. New Paragraph."/>
+        </div>
+      </div>
+      
+      
+      <div class="row featurette">
+
+        <div class="col-md-5">
+          <img style="margin-top:5px;" class="featurette-image img-responsive" src="${pageContext.request.contextPath}/images/cover_live_2004_dg.jpg" alt="Doctor Groove - Live 2004"/>
+        </div>
+      
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Live 2004</h2>
+          <p class="lead">
+          	<a href="${pageContext.request.contextPath}/sample/sample-doctor-groove-mustang-sally.mp3">Mustang Sally</a><br/>
+			<a href="${pageContext.request.contextPath}/sample/sample-doctor-groove-yer-blues.mp3">Yer Blues</a><br/>
+			Purple Rain<br/>
+			Another Brick in The Wall<br/>
+			Pride and joy<br/>
+			Quello che non ho<br/>
+			<br/>
+			<br/>
+			Registrazione e Mixing Luigi Peyla
+			<br/>
+			<a href="#contact">Richiedi il Demo</a>
+
+</p>
+        </div>
+        
+      </div>      
+
 <p class="pull-right"><a href="#" title="Torna all'inizio della pagina">Torna su</a></p>
 
 </section>
+
 
 
 <section id="live">
@@ -219,7 +269,7 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
 <%
 for(Event e : events) {
 %>
-<p class="center_block" align="center"><a href="news.jsp?id=<%=e.getId()%>"><%=e.getDate()%> ::: <%=e.getTitle()%></a></p>				
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#event-<%=e.getId()%>"><%=e.getDate()%> ::: <%=e.getTitle()%></button>
 <%} %>
 
 </div>
@@ -230,7 +280,7 @@ for(Event e : events) {
         
 </div>
 
-
+	<p class="pull-right"><a href="#" title="Torna all'inizio della pagina">Torna su</a></p>
 </section>
 
 <section id="media">
@@ -273,6 +323,37 @@ for(Event e : events) {
     </div><!-- /.container -->
 
 
+
+<!--  eventi modal -->
+
+<%
+for(Event e : events) {
+%>
+
+
+
+ <!-- Modal -->
+  <div class="modal fade" id="#event-<%=e.getId()%>" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><%=e.getTitle()%></h4>
+        </div>
+        <div class="modal-body">
+          <p>><%=e.getBody()%></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<%} %>  
+  
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
