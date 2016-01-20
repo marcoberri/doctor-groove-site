@@ -44,13 +44,195 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
     <!-- Custom styles for this template -->
     <link href="${pageContext.request.contextPath}/bootstrap/css/carousel.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="all" href="${pageContext.request.contextPath}/css/style.css" />
-    
-        <title>Doctor Groove Live Band</title>
+    <title>Doctor Groove Live Band</title>
         
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
+
+
+<!--  eventi modal -->
+
+<%
+for(Event e : events) {
+%>
+ <!-- Modal -->
+  <div class="modal fade event<%=e.getId()%>" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><%=e.getTitle()%></h4>
+        </div>
+        <div class="modal-body">
+          <p><%=e.getBody()%></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<%
+} %>  
+
+
+
+ <!-- Modal -->
+  <div class="modal fade marco" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Marco Berri</h4>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+   <!-- Modal -->
+  <div class="modal fade luciano" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Luciano Vescovo</h4>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+     <!-- Modal -->
+  <div class="modal fade roberto" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Roberto Ceresa</h4>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+       <!-- Modal -->
+  <div class="modal fade silvano" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Silvano Coggiola</h4>
+        </div>
+        <div class="modal-body">
+          <p></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="modal fade story" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Doctor Groove</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+          
+          Il Gruppo ( all'origine Mancastroppa Band ) nasce artisticamente nel 1989 cercando di assemblare le varie esperienza musicali precedenti dei componenti.<br/>
+<br/>
+Il gruppo formato da Silvano Coggiola alla chitarra, alla voce J. Corradino, L.Mancastroppa al basso, Orazio Cherubin alla chitarra e Luciano Vescovo alle batterie.<br/>
+<br/>
+Il primo concerto live è al mitico Master di Biella proponendo un repertorio eslusivamente anni 60'/70', da Born to be wild, all right now ecc.<br/> 
+<br/>
+Appena più tardi J. Corradino decide di smetterer e il gruppo rimane voce, chitarra, basso e batteria.<br/> 
+<br/>
+I concerti proseguono nei locali più importanti delle provincie del vercellese e biellese, il Rock a Boom, Cotton Club, Cecco e Le piscine di Ghislarengo.<br/>
+<br/>
+Nel 1990 partecipano al Festival Blues a Santhià (VC), nello stesso anno vincono il primo premio al Festival Rock a Pray (VC).<br/>
+<br/>
+Nel 1991 incidono diversi nastri "Live".<br/>
+<br/>
+Nel 1993 Ricevono il secondo premio a Rock Targato Italia con il brano Purple Rain di Prince alla discoteca Due di Cigliano (VC), il brano diventerà simbolo del gruppo.<br/>
+<br/>
+Nel 1994 si inserisce nel gruppo Roberto Ceresa ex Isola di Niente e rimarrà punto fermo del gruppo.<br/>
+<br/>
+Silvano Coggiola con Cesare Petrelli appoggiati dal Gruppo firmano un nuovo progetto "Live" chiamato "Radio Risaia Sud", vengono proposti testi in dialetto con musiche che spaziano da Blues alla Ska alle Ballate.<br/>
+<br/>
+Oltre a realizzare un cd autoprodotto ci saranno converti dal vivo molto importanti come quello al Folk Studio di Torino e al Teatro Civico di Vercelli.<br/>
+<br/>
+Nel 1996 rientra a far parte del gruppo Mancastroppa il bassista Billy Scalon in sostituzione di Luciano Mancastroppa.<br/>
+<br/>
+Dal 1996 al 2004 il grupppo si esibirà nei pub di tutto il piemonte con una numerosa serie di serate Live.<br/>
+<br/>
+Nel 2004 entra a far parte del gruppo Marco Berri, bassista poliedrico con diverse esperienze musicali alle spalle registrando.<br/> 
+<br/>
+Nel Dicembre 2004 il Gruppo incide un disco Live con il nome di "Doctor Groove" chiudendo il periodo "Mancastroppa Band".<br/>
+<br/>
+Nel 2005 il Gruppo di presenta come "Doctor Groove" con formazione:<br/>
+Sil Coggiola Voce e Chitarra<br/>
+Roby Ceresa Chitarra<br/>
+Marco Berri Basso<br/>
+Lucaino Vescovo Batterie<br/>
+<br/>
+Hanno collaborato con la "Mancastroppa Band" in periodi diversi:<br/>
+Luigi Peyla alle tastiere e Sax e Sergio Violino al Sax.<br/>
+<br/>
+Hanno collaborato con la "Radio Risaia Sud" in periodi diversi:<br/>
+I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clarinetto e Armonica.<br/>
+          
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
   	
     <div class="navbar-wrapper">
       <div class="container">
@@ -99,7 +281,7 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
             <div class="carousel-caption">
               <h1 class="carousel-title">Doctor Groove logo</h1>
               <p>Il gruppo (in origine Mancastroppa Band) nasce artisticamente nel 1989 cercando di assemblare le varie esperienze musicali precedenti dei componenti del gruppo.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Ecco la storia</a></p>
+              <p><a class="btn btn-lg btn-primary" data-toggle="modal" data-target=".story" role="button">La biografia del gruppo</a></p>
             </div>
           </div>
         </div>
@@ -109,7 +291,7 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
             <div class="carousel-caption">
               <h2 class="carousel-title">Il nostro Demo</h2>
               <p>Disponibili Sample online.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Ascoltaci</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#demo" role="button">Ascoltaci</a></p>
             </div>
           </div>
         </div>
@@ -150,27 +332,19 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
       <div class="row">
         <div class="col-xs-3">
           <img class="img-circle" src="${pageContext.request.contextPath}/images/sil.jpg" alt="Silvano Coggiola">
-          <h2>Silvano</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2><a data-toggle="modal" data-target=".silvano" role="button">Silvano</a></h2>
         </div><!-- /.col-lg-3 -->
         <div class="col-xs-3">
           <img class="img-circle" src="${pageContext.request.contextPath}/images/roby.jpg" alt="Roberto Ceresa">
-          <h2>Roberto</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2><a data-toggle="modal" data-target=".roberto" role="button">Roberto</a></h2>
         </div><!-- /.col-lg-3 -->
         <div class="col-xs-3">
           <img class="img-circle" src="${pageContext.request.contextPath}/images/marco.jpg" alt="Marco Berri">
-          <h2>Marco</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2><a data-toggle="modal" data-target=".marco" role="button">Marco</a></h2>
         </div><!-- /.col-lg-3 -->
         <div class="col-xs-3">
           <img class="img-circle" src="${pageContext.request.contextPath}/images/luciano.jpg" alt="Luciano Vescovo">
-          <h2>Luciano</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2><a data-toggle="modal" data-target=".luciano" role="button">Luciano</a></h2>
         </div><!-- /.col-lg-3 -->
       </div><!-- /.row -->
       
@@ -193,7 +367,7 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
           <h2 class="featurette-heading">ft. Silvia Bianco</h2>
           <p class="lead">Dalla collaborazione tra Silvia Bianco e i Doctor Groove nasce l'album "Full Stop. New Paragraph" disponibile da febbraio 2016</p>
           <p>
-         	 <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/LtEo87EjCLU?rel=0" frameborder="0" allowfullscreen></iframe>
+         	 <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/LtEo87EjCLU?rel=0" ></iframe>
           </p>
         </div>
         
@@ -234,6 +408,7 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
         </div>
       
         <div class="col-md-7">
+      
           <h2 class="featurette-heading">Live 2004</h2>
           <p class="lead">
           	<a href="${pageContext.request.contextPath}/sample/sample-doctor-groove-mustang-sally.mp3">Mustang Sally</a><br/>
@@ -247,8 +422,8 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
 			Registrazione e Mixing Luigi Peyla
 			<br/>
 			<a href="#contact">Richiedi il Demo</a>
+			</p>
 
-</p>
         </div>
         
       </div>      
@@ -269,7 +444,7 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
 <%
 for(Event e : events) {
 %>
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#event-<%=e.getId()%>"><%=e.getDate()%> ::: <%=e.getTitle()%></button>
+<a href="#" data-toggle="modal" data-target=".event<%=e.getId()%>"><%=e.getDate()%> ::: <%=e.getTitle()%></a><br/>
 <%} %>
 
 </div>
@@ -286,7 +461,7 @@ for(Event e : events) {
 <section id="media">
 
       <hr class="featurette-divider">
-
+      
       <div class="row featurette">
 
         <div class="col-md-6">
@@ -309,7 +484,44 @@ for(Event e : events) {
 
 
 
-      </div>      <hr class="featurette-divider">
+      </div>      
+
+		<p class="pull-right"><a href="#" title="Torna all'inizio della pagina">Torna su</a></p>
+      <!-- /END THE FEATURETTES -->
+</section>
+
+
+<section id="contact">
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+
+        <div class="col-md-6">
+        <h2 class="featurette-heading">Contatti</h2>
+        
+        
+			<p>
+			Per contattarci o richiedere il nostro demo:<br/><br/>
+
+
+Mail: info@doctor-groove.it<br/>
+
+Cell: +39 3393448370 o +39 3395414196 <br/>
+
+
+Web: http://www.doctor-groove.it <br/>
+ 
+
+Facebook: http://www.facebook.com/pages/Doctor-Groove/79282153847 <br/> 
+
+			
+			</p>
+        </div>
+
+      </div>
+
+   <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
 </section>
@@ -324,42 +536,14 @@ for(Event e : events) {
 
 
 
-<!--  eventi modal -->
 
-<%
-for(Event e : events) {
-%>
-
-
-
- <!-- Modal -->
-  <div class="modal fade" id="#event-<%=e.getId()%>" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title"><%=e.getTitle()%></h4>
-        </div>
-        <div class="modal-body">
-          <p>><%=e.getBody()%></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-<%} %>  
   
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="bootstrap/js/holder.js"></script>
+    <script src="${pageContext.request.contextPath}/bootstrap/js/jquery-1.10.2.min.js"></script>
+    <script src="${pageContext.request.contextPath}/bootstrap/js/bootstrap.min.js"></script>
+    <script src="${pageContext.request.contextPath}/bootstrap/js/holder.js"></script>
     
     <%@include file="/includes/ga.jsp"%>
     	
