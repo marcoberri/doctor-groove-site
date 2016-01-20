@@ -310,7 +310,7 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
         </div>
         
         <div class="item">
-          <img src="https://farm9.staticflickr.com/8144/7364560172_5ba0a95a60_c.jpg" alt="Doctor Groove Live">
+          <img src="https://farm1.staticflickr.com/151/381706014_44ce8dc634_z.jpg" alt="Doctor Groove Live">
           <div class="container">
             <div class="carousel-caption">
              	<p><a class="btn btn-lg btn-primary" href="#live" role="button">Live</a></p>
@@ -352,25 +352,23 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
 		
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-xs-3">
+        <div class="col-xs-3 text-center">
           <img class="img-circle" src="${pageContext.request.contextPath}/images/sil.jpg" alt="Silvano Coggiola">
-          <h2><a data-toggle="modal" data-target=".silvano" role="button">Silvano</a></h2>
+          <h2><a class="btn btn-lg btn-default btn-block" data-toggle="modal" data-target=".silvano" role="button">Silvano Coggiola</a></h2>
         </div><!-- /.col-lg-3 -->
-        <div class="col-xs-3">
+        <div class="col-xs-3 text-center">
           <img class="img-circle" src="${pageContext.request.contextPath}/images/roby.jpg" alt="Roberto Ceresa">
-          <h2><a data-toggle="modal" data-target=".roberto" role="button">Roberto</a></h2>
+          <h2><a class="btn btn-lg btn-default btn-block" data-toggle="modal" data-target=".roberto" role="button">Roberto Ceresa</a></h2>
         </div><!-- /.col-lg-3 -->
-        <div class="col-xs-3">
+        <div class="col-xs-3 text-center">
           <img class="img-circle" src="${pageContext.request.contextPath}/images/marco.jpg" alt="Marco Berri">
-          <h2><a data-toggle="modal" data-target=".marco" role="button">Marco</a></h2>
+          <h2><a class="btn btn-lg btn-default btn-block" data-toggle="modal" data-target=".marco" role="button">Marco Berri</a></h2>
         </div><!-- /.col-lg-3 -->
-        <div class="col-xs-3">
+        <div class="col-xs-3 text-center">
           <img class="img-circle" src="${pageContext.request.contextPath}/images/luciano.jpg" alt="Luciano Vescovo">
-          <h2><a data-toggle="modal" data-target=".luciano" role="button">Luciano</a></h2>
+          <h2><a class="btn btn-lg btn-default btn-block" data-toggle="modal" data-target=".luciano" role="button">Luciano Vescovo</a></h2>
         </div><!-- /.col-lg-3 -->
       </div><!-- /.row -->
-      
-      
 
      <p class="pull-right"><a href="#" title="Torna all'inizio della pagina">Torna su</a></p>
      
@@ -506,7 +504,21 @@ for(Event e : events) {
 
       </div>
       
-           
+      
+     <div class="row featurette">
+
+        <div class="col-md-6">
+        <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/TeQXabhI1eg?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+
+        <div class="col-md-6">
+        <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/LtEo87EjCLU?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+
+      </div>
+      
 
 		<p class="pull-right"><a href="#" title="Torna all'inizio della pagina">Torna su</a></p>
       <!-- /END THE FEATURETTES -->
@@ -524,21 +536,23 @@ for(Event e : events) {
         
         
 			<p>
-			Per contattarci o richiedere il nostro demo:<br/><br/>
-
-
-Mail: info@doctor-groove.it<br/>
-
-Cell: +39 3393448370 o +39 3395414196 <br/>
-
-
-Web: http://www.doctor-groove.it <br/>
- 
-
-Facebook: http://www.facebook.com/pages/Doctor-Groove/79282153847 <br/> 
-
 			
+			<address>
+  <strong>Doctor Groove live Band</strong><br><br>
+  
+  <abbr title="Cellulare">Cell:</abbr> +39 3393448370<br/>
+  <abbr title="Cellulare">Cell:</abbr> +39 3395414196<br/>
+  <abbr title="Web Site">Web:</abbr> http://www.doctor-groove.it <br/>
+  <abbr title="Facebook">Facebook:</abbr> http://www.facebook.com/pages/Doctor-Groove/79282153847 <br/>
+  
+</address>
+
 			</p>
+        </div>
+        
+        <div class="col-md-6">
+        
+         <img style="margin-top:5px;" class="featurette-image img-responsive" src="${pageContext.request.contextPath}/images/foto_luciano.jpg" alt="Luciano Vescovo"/>
         </div>
 
       </div>
