@@ -273,20 +273,33 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="http://farm3.staticflickr.com/2120/2448360081_871fe7d2fa_b.jpg" alt="First slide">
+          <img src="https://farm3.staticflickr.com/2120/2448360081_871fe7d2fa_z.jpg" alt="Doctor Groove">
           <div class="container">
             <div class="carousel-caption">
-              <h1 class="carousel-title">Doctor Groove logo</h1>
+              <h1 class="carousel-title">Doctor Groove</h1>
               <p>Il gruppo (in origine Mancastroppa Band) nasce artisticamente nel 1989 cercando di assemblare le varie esperienze musicali precedenti dei componenti del gruppo.</p>
               <p><a class="btn btn-lg btn-primary" data-toggle="modal" data-target=".story" role="button">La biografia del gruppo</a></p>
             </div>
           </div>
         </div>
+        
         <div class="item">
-          <img src="http://farm8.staticflickr.com/7088/7364554598_ef0788a1f5_b.jpg" alt="Second slide">
+          <img src="http://farm8.staticflickr.com/7088/7364554598_ef0788a1f5_b.jpg" alt="il nostro demo">
+          <div class="container">
+            <div class="carousel-caption">
+              <p><a class="btn btn-lg btn-primary" href="#silvia" role="button">ft. Silvia Bianco</a></p>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="item">
+          <img src="http://farm8.staticflickr.com/7088/7364554598_ef0788a1f5_b.jpg" alt="il nostro demo">
           <div class="container">
             <div class="carousel-caption">
               <h2 class="carousel-title">Il nostro Demo</h2>
@@ -295,18 +308,27 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
             </div>
           </div>
         </div>
+        
         <div class="item">
-          <img src="http://farm1.staticflickr.com/179/471021317_e2618edf01_o.jpg" alt="Third slide">
+          <img src="https://farm9.staticflickr.com/8144/7364560172_5ba0a95a60_c.jpg" alt="Doctor Groove Live">
           <div class="container">
             <div class="carousel-caption">
-              <h2 class="carousel-title">Live</h2>
-              <p><strong>01 maggio 2013</strong><br/>
-              Radio Risaia Sud<br/>
-              Circolo dei Lavoratori di Porta Torino - Vercelli</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">I dettagli</a></p>
+             	<p><a class="btn btn-lg btn-primary" href="#live" role="button">Live</a></p>
             </div>
           </div>
         </div>
+        
+
+        <div class="item">
+          <img src="https://farm9.staticflickr.com/8778/17943484130_01265a02eb_c.jpg" alt="Radio Risaia Sud">
+          <div class="container">
+            <div class="carousel-caption">
+            	<p><a class="btn btn-lg btn-primary" href="http://www.radiorisaiasud.it" target="_new" role="button">Progetto Radio Risaia Sud</a></p>
+            </div>
+          </div>
+        </div>
+        
+        
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -482,9 +504,9 @@ for(Event e : events) {
         <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/D5gi9-Zaemc?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
 
-
-
-      </div>      
+      </div>
+      
+           
 
 		<p class="pull-right"><a href="#" title="Torna all'inizio della pagina">Torna su</a></p>
       <!-- /END THE FEATURETTES -->
