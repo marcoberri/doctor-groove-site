@@ -93,7 +93,53 @@ for(Event e : events) {
           <h4 class="modal-title">Marco Berri</h4>
         </div>
         <div class="modal-body">
-          <p></p>
+          <p>
+          Figlio d'arte segue le orme del padre studiano il trombone presso il "Liceo Musicale di Santhià" dal 1986.<br>
+<br>
+Nel 1995 inizia gli studi di basso elettrico seguendo i corsi del chitarrista Paolo Riva.<br>
+<br>
+Nel 1996 al 2000 studia con Maurizio Torchio (Jahorna e Armata Brancaleone)<br>
+<br>
+Nella stagione Invernale 97 partecipa con "Orchestra Giovanile Del Piemonte" a quattro concerti con tema "le colonne sonore di Hollywood", i primi due presso Hotel "La Serra" ad Ivrea (TO), il terzo al Teatro Regio di Torino e l'ultima presso il conservatorio di Torino.<br>
+<br>
+Dal 1996 al 1998 forma il gruppo Rock "Gravità Zero", il gruppo vince nel 1997 un concorso provinciale organizzato dal quotidiano de "La Stampa".<br>
+<br>
+Con il medesimo gruppo incide, un demo di cover in studio.<br>
+<br>
+Nel periodo precedente al servizio militare Marco continua la sua collaborazione con gruppi di Liscio della zona Vercelli e Novara a livello professionistico.<br>
+<br>
+Dal 1998 al 1999 Servizio militare presso la Fanfare della Brigata Alpina Taurinense, ricevendo un diploma di musicante.<br>
+<br>
+Nel 1999 sostiene l'esame di Teoria e solfeggio presso il Conservatorio di Novara.<br>
+<br>
+Dal luglio 1999 a Settembre 2001 collabora con l'orchestra da ballo di "Stefano e Fantasy Band" suonando in più di 250 serate.<br>
+<br>
+Nel Gennaio 2000 Marco decide di proseguire gli studi iscrivendosi alla Accademia musicale Lizard di Fontaneto Po' (VC) dove segue lezioni di basso da Alessandro Maiolino, Enea Bardi e Gianfranco Torta.<br> 
+<br>
+Nel Febbraio 2001 segue un corso di tecnico del suono con pratica in studio di registrazione.<br>
+<br>
+Nel gennaio 2003 Marco riceve l'attestato di secondo livello dell'accademia Lizard di Fiesole (FI) esaminato da Marco Caudai.<br>
+<br>
+Nel periodo 2000/2003 collabora con formazioni Standard Jazz con la cantante solista Emanuela Prelle.<br>
+Propone in diverse serate un repertorio che spazia da brani di matrice francese e colonne sonore proposte dai grandi Musical di Hollywood.<br>
+<br>
+Nel gennaio 2003 inizia la collaborazione con il gruppo "Otis ReddingTribute", omaggio all'artista di colore degli anni '60. La voce solista e' di Attilio Gili rappresentante blues degli anni '60 (UH! , Zip Fastener, vincitore di Sanremo Blues nel 1991).<br>
+<br>
+Nell'ottobre 2003 incidono un demo contenete tutti brani realizzati dal vivo.<br>
+<br>
+Nel 2004 inizia la collaborazione con il progetto "IREK", Tributo Ufficiale ad Irene Grandi.<br>
+<br>
+Nel febbraio 2004 collabora con in coro "The White Soul Choir" incidendo alcune parti di trombone.<br>
+<br>
+Nell' ottobre 2004 inizia la collaborazione con il gruppo "Doctor Groove" (ex Mancastoppa Band) da cui nel gennaio 2005 nasce un Demo.<br>
+<br>
+Nell' novembre 2004 inizia la collaborazione con il gruppo "4X". Nel febbraio 2005 nasce un cd demo<br>
+<br>
+Nel marzo 2005 Marco riceve l'attestato di terzo livello dell'accademia Lizard di Fiesole (FI) esaminato da Marco Caudai.<br>
+<br>
+Nel marzo 2006 partecipa ad un concorso con il "Foggy Brass Quintett" (quintetto di ottoni) indetto da Rotary Club.<br>
+          <br>
+          </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
@@ -115,7 +161,14 @@ for(Event e : events) {
           <h4 class="modal-title">Luciano Vescovo</h4>
         </div>
         <div class="modal-body">
-          <p></p>
+          <p>
+Suona dall’età di 13 anni, cioè da quando scopre, innamorandosene, i Beatles (disco da portare sull’isola deserta in caso di naufragio: Sgt. Pepper’s lonely hearts club band), cui seguono le passioni per altri grandi gruppi dell’epoca quali gli Animals di Eric Burdon, lo Spencer Davis Group ed i Traffic di Steve Winwood , gli Yardbirds di Jeff Beck.<br><br>
+Dal 1967 al 1972 è batterista del gruppo “I Vermi”, gruppo fondato con altri tre amici tra i quali Pier Michelatti, grande e futuro bassista di F. De Andrè, F. Mannoia, E. Bennato, G. Nannini, A. Celentano e tanti altri grandi nomi della musica italiana.<br><br>
+Il gruppo svolge un’intensa attività nelle sale da ballo (allora non esistevano le discoteche e si ballava con la musica dei gruppi) affiancandosi all’attività di altri conosciuti gruppi dell’area vercellese e biellese quali “I Capostipiti”, “The Sleeping”, “Gli Uh!” “I New Blues”.<br><br>
+Il repertorio abbraccia diversi filoni della musica dell’epoca: cover di Santana, Deep Purple, Creedence, Colosseum, EL&P etc.. da un lato, dall’altro De Andrè, primi New Trolls e Luigi Tenco.<br><br>
+Nell’estate del 1972 questa esperienza si chiude e si apre quella de il “Magma”, sempre con Pier Michelatti: il gruppo si esibisce nelle prime discoteche del torinese (Pinerolo, Chieri, Caluso) e del savonese.<br><br>
+Questa esperienza si chiude alla fine del 1973 dopodiché la partenza per il servizio militare interrompe l’esperienza musicale con un break che durerà fino al 1989 quando, sollecitato da Sil Coggiola, amico da una vita, riprenderà le bacchette in mano per la nascita della “Mancastroppa Band” ed è questa una storia che evolverà fino a tutt’oggi con “Doctor Groove” passando per la collaborazione parallela, ma non meno importante, al progetto di Sil Coggiola denominato “Radio Risaia Sud”, il tutto come già esaurientemente illustrato nella presentazione del gruppo.<br><br>
+          </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
@@ -136,7 +189,9 @@ for(Event e : events) {
           <h4 class="modal-title">Roberto Ceresa</h4>
         </div>
         <div class="modal-body">
-          <p></p>
+          <p>
+          Roberto ha iniziato a suonare a 13 anni.... e da allora non ha ancora smesso.... PECCATO !!!!
+          </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
@@ -352,6 +407,13 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
 		
       <!-- Three columns of text below the carousel -->
       <div class="row">
+      	<div class="span4"></div>
+        	<div class="span4">
+        		<img class="center-block" src="${pageContext.request.contextPath}/images/doctortitle.gif"" alt="Doctor Groove"/>
+        	</div>
+        <div class="span4"></div>
+      </div>
+      <div class="row" style="margin-top:15px;">
         <div class="col-xs-3 text-center">
           <img class="img-circle" src="${pageContext.request.contextPath}/images/sil.jpg" alt="Silvano Coggiola">
           <h2><a class="btn btn-lg btn-default btn-block" data-toggle="modal" data-target=".silvano" role="button">Silvano Coggiola</a></h2>
@@ -381,10 +443,16 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
 <section id="silvia">
 
       <!-- START THE FEATURETTES -->
-
+      <div class="row featurette">
+      	<div class="span4"></div>
+        	<div class="span4">
+        		<h2 class="center-block">ft. Silvia Bianco</h2>
+        	</div>
+        <div class="span4"></div>
+      </div>
+      
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">ft. Silvia Bianco</h2>
           <p class="lead">Dalla collaborazione tra Silvia Bianco e i Doctor Groove nasce l'album "Full Stop. New Paragraph" disponibile da febbraio 2016</p>
           <p>
          	 <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/LtEo87EjCLU?rel=0" ></iframe>
@@ -407,10 +475,17 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
  
 <section id="demo">
 
-
+      <!-- START THE FEATURETTES -->
+      <div class="row featurette">
+      	<div class="span4"></div>
+        	<div class="span4">
+        		<h2 class="center-block">Full Stop. New Paragraph.</h2>
+        	</div>
+        <div class="span4"></div>
+      </div>
+      
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Full Stop. New Paragraph.</h2>
           <p class="lead">Sample in arrivo</p>
         </div>
         
@@ -421,6 +496,14 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
       </div>
       
       
+            <!-- START THE FEATURETTES -->
+      <div class="row featurette">
+      	<div class="span4"></div>
+        	<div class="span4">
+        		<h2 class="center-block">Live 2004</h2>
+        	</div>
+        <div class="span4"></div>
+      </div>
       <div class="row featurette">
 
         <div class="col-md-5">
@@ -429,7 +512,7 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
       
         <div class="col-md-7">
       
-          <h2 class="featurette-heading">Live 2004</h2>
+     
           <p class="lead">
           	<a href="${pageContext.request.contextPath}/sample/sample-doctor-groove-mustang-sally.mp3">Mustang Sally</a><br/>
 			<a href="${pageContext.request.contextPath}/sample/sample-doctor-groove-yer-blues.mp3">Yer Blues</a><br/>
@@ -458,6 +541,16 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
 
       <hr class="featurette-divider">
 
+
+      <!-- START THE FEATURETTES -->
+      <div class="row">
+      	<div class="span4"></div>
+        	<div class="span4">
+        		<h2 class="center-block">Live</h2>
+        	</div>
+        <div class="span4"></div>
+      </div>
+      
 <div class="row featurette">
  <div class="col-md-6">
 

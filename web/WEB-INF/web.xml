@@ -8,7 +8,7 @@
 	<description>
       Doctor Groove web site
     </description>
-
+    
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
