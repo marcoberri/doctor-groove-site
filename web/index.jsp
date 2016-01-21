@@ -431,6 +431,16 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
           <h2><a class="btn btn-lg btn-default btn-block" data-toggle="modal" data-target=".luciano" role="button">Luciano Vescovo</a></h2>
         </div><!-- /.col-lg-3 -->
       </div><!-- /.row -->
+      
+      
+            <div class="row">
+      	<div class="span4"></div>
+        	<div class="span4 text-center">
+        		<h2 class="center-block"><a class="btn btn-success" data-toggle="modal" data-target=".story" role="button">La biografia del gruppo</a></h2>
+        		
+        	</div>
+        <div class="span4"></div>
+      </div>
 
      <p class="pull-right"><a href="#" title="Torna all'inizio della pagina">Torna su</a></p>
      
