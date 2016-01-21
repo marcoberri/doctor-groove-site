@@ -409,7 +409,7 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
       <div class="row">
       	<div class="span4"></div>
         	<div class="span4">
-        		<img class="center-block" src="${pageContext.request.contextPath}/images/doctortitle.gif"" alt="Doctor Groove"/>
+        		<img class="center-block img-responsive" src="${pageContext.request.contextPath}/images/doctortitle.gif"" alt="Doctor Groove"/>
         	</div>
         <div class="span4"></div>
       </div>
@@ -465,7 +465,7 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
         <div class="col-md-7">
           <p class="lead">Dalla collaborazione tra Silvia Bianco e i Doctor Groove nasce l'album "Full Stop. New Paragraph" disponibile da febbraio 2016</p>
           <p>
-         	 <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/LtEo87EjCLU?rel=0" ></iframe>
+         	 <iframe class="featurette-image img-responsive"  width="500" height="315" src="https://www.youtube.com/embed/LtEo87EjCLU?rel=0" ></iframe>
           </p>
         </div>
         
@@ -573,7 +573,7 @@ for(Event e : events) {
 </div>
 
         <div class="col-md-6">
-        <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/yvNRngrfmtI?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe class="featurette-image img-responsive"  width="500" height="315" src="https://www.youtube.com/embed/yvNRngrfmtI?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
         
 </div>
@@ -588,10 +588,10 @@ for(Event e : events) {
       <div class="row featurette">
 
         <div class="col-md-6">
-        <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/fVjyKRYHS3E?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe class="featurette-image img-responsive"  width="500" height="315" src="https://www.youtube.com/embed/fVjyKRYHS3E?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-md-6">
-        <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/yvNRngrfmtI?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe class="featurette-image img-responsive"  width="500" height="315" src="https://www.youtube.com/embed/yvNRngrfmtI?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
 
       </div>
@@ -599,10 +599,10 @@ for(Event e : events) {
       <div class="row featurette">
 
         <div class="col-md-6">
-        <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/6Bgd2vNqfI8?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe class="featurette-image img-responsive"  width="500" height="315" src="https://www.youtube.com/embed/6Bgd2vNqfI8?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-md-6">
-        <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/D5gi9-Zaemc?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe class="featurette-image img-responsive"  width="500" height="315" src="https://www.youtube.com/embed/D5gi9-Zaemc?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
 
       </div>
@@ -611,12 +611,12 @@ for(Event e : events) {
      <div class="row featurette">
 
         <div class="col-md-6">
-        <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/TeQXabhI1eg?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe class="featurette-image img-responsive"  width="500" height="315" src="https://www.youtube.com/embed/TeQXabhI1eg?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
 
 
         <div class="col-md-6">
-        <iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/LtEo87EjCLU?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe class="featurette-image img-responsive"  width="500" height="315" src="https://www.youtube.com/embed/LtEo87EjCLU?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
 
 
