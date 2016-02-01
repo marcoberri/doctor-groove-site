@@ -2,8 +2,7 @@
 language="java" 
 contentType="text/html; charset=UTF-8"	
 pageEncoding="UTF-8"
-import="it.marcoberri.doctorgroove.EventList,
-		it.marcoberri.doctorgroove.Event,
+import="it.marcoberri.doctorgroove.*,
 		java.util.*,
 		java.util.Random
 		"
@@ -36,7 +35,7 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
     <link rel="canonical" href="http://www.doctor-groove.it" />
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.png">
 
-
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" media="all" href="${pageContext.request.contextPath}/bootstrap/css/bootstrap.css" />
@@ -329,13 +328,16 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="http://www.doctor-groove.it">Home</a></li>
                 <li><a href="#about">il Gruppo</a></li>
                 <li><a href="#silvia">ft. Silvia Bianco</a></li>
                 <li><a href="#live">Live</a></li>
                 <li><a href="#demo">Demo</a></li>
                 <li><a href="#media">Media</a></li>
                 <li><a href="#contact">Contatti</a></li>
+                <li><a href="https://www.facebook.com/DoctorGrooveVercelli/timeline" target="_new"><i class="fa fa-lg fa-facebook"></i></a></li>
+                <li><a href="https://plus.google.com/u/0/b/115354838498053576920/+DoctorgrooveItSilvia/posts"  target="_new"><i class="fa fa-lg fa-google-plus"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCSkNTgwc9B7tWOnp-0vDfBQ"  target="_new"><i class="fa fa-lg fa-youtube-square"></i></a></li>
               </ul>
             </div>
           </div>
