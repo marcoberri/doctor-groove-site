@@ -26,8 +26,14 @@ ArrayList<Event> events = (ArrayList<Event>)application.getAttribute("event");
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="Description" CONTENT="Doctor Groove Live Band, Vercelli, ft. Silvia Bianco">
+    <meta name="author" content="Marco Berri, marcoberri@gmail.com">
+    <meta NAME="Language" CONTENT="IT">
+    <meta HTTP-EQUIV="Content-Language" CONTENT="it-IT">
+    <meta NAME="Copyright" CONTENT="©Doctor-Groove 2016">
+    <meta NAME="Distribution" CONTENT="Global">
+    <meta NAME="Revisit-After" CONTENT="5 days Days">
+    <link rel="canonical" href="http://www.doctor-groove.it" />
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.png">
 
 
@@ -214,7 +220,26 @@ Questa esperienza si chiude alla fine del 1973 dopodiché la partenza per il ser
           <h4 class="modal-title">Silvano Coggiola</h4>
         </div>
         <div class="modal-body">
-          <p></p>
+          <p>
+          
+Sono nato a Vercelli, inizio il mio amore per tutte le forme d'arte introno agli anni '80, musica, cinema, fotografia e pittura, in particolare la musica seguendo concerti che spaziano dal rock al Jazz, Blues, cercando di cogliere le emozioni di questi grandi musicisti facendone crescere on me ogni giorno.<br>
+<br>
+L'avventura incomicia, realizzando Film in Super 8 ispirandomi a registi tedeschi emergenti di quel periodo, Wim Wender in particolare, i miei temi preferiti, il viaggio attraverso la pianura vercellese e l'interiorità dei personaggi.<br>
+<br>
+Nel 1981 realizzo un " Film Documento" Cercarli e Scoprirli prodotto dalla Rai di Torino, il film si sviluppa all'interno di una vecchia osteria con tutti i personaggi che la frequentano, il grande Attore (Paul Prestier che sogna di reitare con Fellini) il Conte Gili dirige una grande orchestra, il cartomante ecc... dove tutti recitano la priopria vita.<br>
+<br>
+Nello stesso periodo dopo aver visto a Firenze una grande mostra fotografica di Henri Cartier-Bresson decido, alternando al cinema , di scattare una serie di fotografie in bianco e nero ritratti di gente comune, gesti e riti di vecchi paesi, partecipando a numerose mostre: Piccolo studio a Vercelli, Palazzo Cendori a Santhià, etc.. riscontrando pareri positivi-
+Dopo aver studiato per un breve periodo chitarra classica, decido di inglobare tutte le energie nella musica carcando ispirazione in una vecchia Stratocaster e un valvolare Fender.<br>
+<br>
+Nel 1987 parto con la più grande esperienza musicale , il gruppo "Mancastroppa Band" con due chiatrre basso e batteria.<br>
+La musica che fa da traino è quella anni 60/70 Little Richard Lucile", Spencer Davis "gimme some lovin'" e Free "All right now", si suona in tutti i locali possibili e immaginabili, girando con un vecchio FIAT semi fuso che finirà i suo giorni sul "Mottarone" una collina del Lago Maggiore.<br>
+<br>
+Nel frattempo scrivo pezzi originali, vengono ascoltati da Antonello Rasi tastierista dell' Isola di Niente, decidiamo di fare una fuzione della mia musica con quella cha aveva scritto in quel periodo. Da quì ne nasce un 33 giri autoprodotto seguito da vari concerti.<br>
+<br>
+Più tardi registro alcuni "live" con la "Mancastroppa" che verranno inseriti in un album prodotto da Vico Ellena noto musicista degli effervescen elephant.<br>
+Con Cesare Petrelli grande musicista di Vercelli diamo vita ad un progetto "Radio Risaia Sud" musiche che spaziano dal blues allo ska alla ballata con testi in dialetto cercando le radici di questo paese (Vercelli). Nel 2001 nasce "Doctor Groove" con l'apporto dell'esperienza del Bassista Marco Berri, si registra nella sala prove un CD "Live" di cover che ripercorre tutta la stotria del Gruppo, al banco di Regia Gigi Peyla          
+<br>          
+          </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
@@ -344,7 +369,7 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
         </div>
         
         <div class="item">
-          <img src="http://farm8.staticflickr.com/7088/7364554598_ef0788a1f5_b.jpg" alt="il nostro demo">
+          <img src="http://farm9.staticflickr.com/8498/8263862392_0c87ba605b_b.jpg" alt="il nostro demo">
           <div class="container">
             <div class="carousel-caption">
               <p><a class="btn btn-lg btn-primary" href="#silvia" role="button">ft. Silvia Bianco</a></p>
@@ -358,7 +383,8 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
           <div class="container">
             <div class="carousel-caption">
               <h2 class="carousel-title">Il nostro Demo</h2>
-              <p>Disponibili Sample online.</p>
+				<p>Disponibili Sample online.</p>
+              
               <p><a class="btn btn-lg btn-primary" href="#demo" role="button">Ascoltaci</a></p>
             </div>
           </div>
@@ -466,7 +492,7 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
           <p class="lead">Dalla collaborazione tra Silvia Bianco e i Doctor Groove nasce l'album "Full Stop. New Paragraph" disponibile da febbraio 2016</p>
           <p>
           	 <div class="embed-responsive embed-responsive-16by9">
-         	 	<iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/LtEo87EjCLU?rel=0" ></iframe>
+         	 	<iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/LtEo87EjCLU?rel=0"></iframe>
          	 </div>
           </p>
         </div>
@@ -498,7 +524,13 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
       
       <div class="row featurette">
         <div class="col-md-7">
-          <p class="lead">Sample in arrivo</p>
+          <p><a href="https://www.youtube.com/watch?v=b4ZKQU5MqLM&list=PLRCqreQDfACAHI-TwpriDM_gyZFh8ayiu">You Tube Channel</a>
+          <p>
+          	 <div class="embed-responsive embed-responsive-16by9">
+         	 	<iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/b4ZKQU5MqLM?rel=0"></iframe>
+         	 </div>
+          </p>
+          
         </div>
         
         
@@ -589,6 +621,16 @@ for(Event e : events) {
 
       <hr class="featurette-divider">
       
+      
+            <!-- START THE FEATURETTES -->
+      <div class="row">
+      	<div class="span4"></div>
+        	<div class="span4">
+        		<h2 class="center-block">Media</h2>
+        	</div>
+        <div class="span4"></div>
+      </div>
+      
       <div class="row featurette">
 
         <div class="col-md-6">
@@ -639,7 +681,26 @@ for(Event e : events) {
 
 
       </div>
-      
+
+
+     <div class="row featurette">
+
+        <div class="col-md-6">
+
+          	 <div class="embed-responsive embed-responsive-16by9">
+         	 	<iframe class="featurette-image"  width="500" height="315" src="https://www.youtube.com/embed/b4ZKQU5MqLM?rel=0"></iframe>
+         	 </div>
+         	 
+        </div>
+
+
+        <div class="col-md-6">
+        </div>
+        
+        
+        
+    </div>
+         	       
 
 		<p class="pull-right"><a href="#" title="Torna all'inizio della pagina">Torna su</a></p>
       <!-- /END THE FEATURETTES -->
