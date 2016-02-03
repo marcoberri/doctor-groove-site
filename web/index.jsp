@@ -360,7 +360,7 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="https://farm3.staticflickr.com/2120/2448360081_871fe7d2fa_z.jpg" alt="Doctor Groove">
+          <img src="${pageContext.request.contextPath}/images/carousel_1.jpg" alt="Doctor Groove">
           <div class="container">
             <div class="carousel-caption">
               <h1 class="carousel-title">Doctor Groove</h1>
@@ -371,7 +371,7 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
         </div>
         
         <div class="item">
-          <img src="http://farm9.staticflickr.com/8498/8263862392_0c87ba605b_b.jpg" alt="il nostro demo">
+          <img src="${pageContext.request.contextPath}/images/carousel_2.jpg" alt="ft. Silvia Bianco">
           <div class="container">
             <div class="carousel-caption">
               <p><a class="btn btn-lg btn-primary" href="#silvia" role="button">ft. Silvia Bianco</a></p>
@@ -381,7 +381,7 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
 
         
         <div class="item">
-          <img src="http://farm8.staticflickr.com/7088/7364554598_ef0788a1f5_b.jpg" alt="il nostro demo">
+          <img src="${pageContext.request.contextPath}/images/carousel_3.jpg" alt="il nostro demo">
           <div class="container">
             <div class="carousel-caption">
               <h2 class="carousel-title">Il nostro Demo</h2>
@@ -393,7 +393,7 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
         </div>
         
         <div class="item">
-          <img src="https://farm1.staticflickr.com/151/381706014_44ce8dc634_z.jpg" alt="Doctor Groove Live">
+          <img src="${pageContext.request.contextPath}/images/carousel_4.jpg" alt="Doctor Groove Live">
           <div class="container">
             <div class="carousel-caption">
              	<p><a class="btn btn-lg btn-primary" href="#live" role="button">Live</a></p>
@@ -403,7 +403,7 @@ I Fratelli Cesare, Filippo Petrelli e Roberto Bongianino alla fisarmonica , clar
         
 
         <div class="item">
-          <img src="https://farm9.staticflickr.com/8778/17943484130_01265a02eb_c.jpg" alt="Radio Risaia Sud">
+          <img src="${pageContext.request.contextPath}/images/carousel_5.jpg" alt="Radio Risaia Sud">
           <div class="container">
             <div class="carousel-caption">
             	<p><a class="btn btn-lg btn-primary" href="http://www.radiorisaiasud.it" target="_new" role="button">Progetto Radio Risaia Sud</a></p>
@@ -735,8 +735,7 @@ for(Event e : events) {
         </div>
         
         <div class="col-md-6">
-        
-         <img style="margin-top:5px;" class="featurette-image img-responsive" src="${pageContext.request.contextPath}/images/foto_luciano.jpg" alt="Luciano Vescovo"/>
+         <img style="margin-top:5px;" class="featurette-image img-responsive" src="${pageContext.request.contextPath}/images/sil_roby.jpg" alt="Luciano Vescovo"/>
         </div>
 
       </div>
